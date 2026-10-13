@@ -1,0 +1,75 @@
+new-api Notices
+
+new-api
+Copyright (c) QuantumNous and contributors.
+
+This project is licensed under the GNU Affero General Public License v3.0.
+See LICENSE for the full project license terms.
+
+==== Additional Terms under AGPLv3 Section 7 ====
+
+Pursuant to Section 7(b) of the GNU Affero General Public License version 3,
+the following reasonable legal notice and author attribution must be preserved
+by modified versions in the Appropriate Legal Notices and in any prominent
+about, legal, footer, or attribution location presented by the user interface:
+
+"Frontend design and development by New API contributors."
+
+Modified versions that present a user interface must also preserve a visible
+link to the original project in a prominent about, legal, footer, or
+attribution location:
+
+https://github.com/QuantumNous/new-api
+
+Modified versions must not misrepresent the origin of the software and must
+mark their changes in accordance with AGPLv3 Section 7(c).
+
+==== Third-Party Notices ====
+
+This product includes third-party open source software. Copyright notices and
+license terms for direct third-party dependencies are listed in
+THIRD-PARTY-LICENSES.md.
+
+Apache-2.0 upstream NOTICE entries identified for direct dependencies are
+reproduced below. Preserve this file with Docker images, standalone binaries,
+frontend bundles, and Electron desktop installers distributed to users.
+
+==== Apache-2.0 Notices ====
+
+AWS SDK for Go
+Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Copyright 2014-2015 Stripe, Inc.
+
+smithy-go
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+otp
+Copyright (c) 2014, Paul Querna
+
+This product includes software developed by
+Paul Querna (http://paul.querna.org/).
+
+==== Electron / Chromium Notices ====
+
+Desktop distributions include Electron, which embeds Chromium, Node.js, V8,
+and other third-party components. Electron and Chromium third-party license
+notices must remain available with desktop installers and installed apps.
+
+==== End of Notices ====
+
+==== Standalone Skill scope and changes ====
+
+Yuheng Star video Skill — GNU Affero General Public License version 3.
+This standalone client is exported byte-for-byte from
+muse-fleet-service/skill/muse-video-gen/muse_client.py.
+The source project is based on new-api by QuantumNous; original project
+identities and any existing notices remain attributable to their authors.
+The archive contains complete corresponding client and installer source.
+No API credentials, personal configuration, task state, or server credentials
+are distributed. No external project implementation was copied for setup.py.
+
+This distribution contains only Python standard-library code, Skill instructions,
+and documentation. It does not bundle the parent project Go dependencies or
+Electron/Chromium. Parent third-party notices above are preserved as provenance.
+The new private setup entry and Skill/README changes are marked in source;
+client code is exported unchanged.
